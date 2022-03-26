@@ -3,7 +3,6 @@
   max-width: 450px;
   font-family: "Baloo Paaji 2", sans-serif;
   margin: auto;
-  background-color: #f2bc93;
 }
 
 /* <!-------------------------------------------------------- Top-part ------------------------------------------> */
@@ -48,12 +47,17 @@
 
 /*-- Search Bar and Current Location--*/
 
-.top-part {
+.top-sec {
   border-radius: 10px;
   background: #2087f9;
   padding-top: 3%;
   padding-bottom: 9%;
   position: relative;
+  font-family: "Baloo Paaji 2", sans-serif;
+}
+.btns {
+  display: flex;
+  justify-content: space-around;
 }
 
 /* <!-- current-info -->*/
@@ -76,13 +80,12 @@
 }
 /* float-feelslike */
 .float-feelslike {
+  margin: 0;
   display: flex;
-  align-items: flex-end;
-  /* background-image: url(src/images/bubble.png); */
-  background-size: 80px;
+  background-size: 95px;
   background-repeat: no-repeat;
   background-position: bottom;
-  opacity: 25%;
+  opacity: 20%;
 }
 
 .feels {

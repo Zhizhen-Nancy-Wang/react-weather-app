@@ -17,17 +17,22 @@ function App() {
     <div>
       {/* <!--------------- Top-part -------------> */}
       {/* <!-- Search Bar and Current-Location Button and CFbtns--> */}
-      <SearchBar />
-      <CurrentLocationBtn />
-      <CFbtns />
-      {/* <!-- current-info  --> */}
-      <CurrentInfo />
-      {/* <!-- weather-img and Feelslike --> */}
-      <WeatherImgFeelsLike />
-      {/* <!-- current-temperature --> */}
-      <CurrentTemp />
-      {/* <!-- Top-curve --> */}
-      <TopCurve />
+      <div className="top-sec">
+        <SearchBar />
+        <div className="btns">
+          <CurrentLocationBtn />
+          <CFbtns />
+        </div>
+
+        {/* <!-- current-info  --> */}
+        <CurrentInfo />
+        {/* <!-- weather-img and Feelslike --> */}
+        <WeatherImgFeelsLike />
+        {/* <!-- current-temperature --> */}
+        <CurrentTemp />
+        {/* <!-- Top-curve --> */}
+        <TopCurve />
+      </div>
       {/* <!-- Middle-part --> */}
       <MiddlePart />
       {/* <!-- Bottom-part  --> */}

@@ -1,5 +1,6 @@
 import React from "react";
 import rain from "../images/rain.png";
+import bubble from "../images/bubble.png";
 
 export const WeatherImgFeelsLike = () => {
   return (
@@ -16,10 +17,13 @@ export const WeatherImgFeelsLike = () => {
           />
         </div>
 
-        <div className="col-4 float-feelslike">
+        <div
+          className="col-4 float-feelslike"
+          style={{ backgroundImage: `url(${bubble})`, width: "130px" }}
+        >
           <div className="container feels">
-            <div className="feelslike-info">FEELS LIKE</div>
-            <div className="num-feelslike fs-5" id="num-feelslike">
+            <div className="feelslike-info fs-6">feels like</div>
+            <div className="num-feelslike fs-6" id="num-feelslike">
               25 °
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import search from "../images/search.png";
 
 export const SearchBar = () => {
   return (
@@ -23,7 +24,7 @@ export const SearchBar = () => {
 
           <div className="mt-1 col-2">
             <button className="btn btn-outline-light" type="submit">
-              <img src="images/search.png" width="15px" alt="search" />
+              <img src={search} width="15px" alt="search" />
             </button>
           </div>
         </form>
