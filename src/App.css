@@ -49,7 +49,7 @@
 
 .top-sec {
   border-radius: 10px;
-  background: #1154d1;
+  background: #3576f8;
   padding-top: 3%;
   padding-bottom: 9%;
   position: relative;
@@ -130,7 +130,7 @@
 /*  <!------------------------------------------------------------------ Bottom-part  --------------------------------------------> */
 
 .bottom-part {
-  background: linear-gradient(to top, #2087f9, white 90%);
+  background: linear-gradient(to top, #3b7af7, white 90%);
   border-radius: 10px;
   padding-top: 5px;
   padding-bottom: 20px;

@@ -2,14 +2,20 @@ import React from "react";
 import search from "../images/search.png";
 
 export const SearchBar = () => {
+  const handleOnSubmit = (event) => {
+    event.preventDefault();
+    console.log(event);
+  };
+
   return (
     <div>
       <div className="container">
         <form
-          action="javascript:void(0)"
-          onSubmit="handleOnSubmit(this)"
+          // action="javascript:void(0)"
+          // onSubmit="handleOnSubmit(this)"
           id="search-form"
           className="row"
+          onSubmit={handleOnSubmit}
         >
           <div className="mt-1 col-10">
             <input
